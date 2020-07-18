@@ -94,7 +94,6 @@ $(document).ready(function() {
         loadTweets();
       }).catch((e) => console.log(e));
     }
-    //$('.article').text();
   });
 });
 
