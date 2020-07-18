@@ -1,0 +1,146 @@
+
+.main {
+  margin-top: 120px;
+}
+.name {
+  font-family: sans-serif;
+}
+
+.forButtonAndCounter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  color: #FFFFFF;
+  background-color: #4056A1;
+  font-family: Bungee;
+  font-size: 15px;
+}
+
+.tweetform{
+  width: 100%;
+  display: inline-block;
+  padding:20px;
+}
+
+#tweet-text{
+  border:none;
+  resize: none;
+  width: 100%;
+  padding:10px;
+  background-color: inherit;
+  border-bottom: black solid 2px;
+}
+
+.counter.error {
+  color:red;
+}
+
+.tweets-container {
+  display:flex;
+  flex-direction: column;
+}
+
+.tweet-container {
+  display:flex;
+  border:rgb(49, 48, 48) solid 2px;
+  margin:20px;
+  padding:20px;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.tweet-container:hover {
+  visibility: visible;
+  box-shadow:10px 10px gray;
+
+}
+.tweet-container:hover .forHandle{
+  opacity: 1;
+}
+
+.tweet-container .options {
+  opacity: 0;
+}
+
+.tweet-container:hover .options  {
+  color: #4056A1; 
+  opacity: 1;
+  display: inline;
+}
+
+.tweet-header{
+  flex-direction: column;
+  padding: 5px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.forAvatarsNameAndHandle {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding:5px;
+  
+}
+
+.forAvatarsNameAndHandle h6 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.forAvatarsAndName {
+  color: rgb(129, 124, 124);
+  display: flex;
+  justify-content: space-between;
+
+}
+.forAvatarsAndName > img {
+    height: 60px;
+    width: 60px;
+    padding-right: 4px;
+}
+.forHandle {
+  color:#afa6a6;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.article {
+  width:100%;
+  resize:none;
+  background-color:inherit;
+  color:rgb(49, 48, 48);
+  border-bottom: rgb(49, 48, 48) solid 2px;
+  font-family: sans-serif;
+  font-size: 20px;
+  overflow-wrap: break-word;
+ }
+
+.too-long {
+  display: none;
+}
+
+.too-long p {
+  text-align: center;
+  color: red;
+}
+.empty-tweet {
+  display : none;
+}
+
+.empty-tweet p {
+  text-align: center;
+  color:red;
+}
+
+footer {
+  font-size: 15px;
+  font-family: Source sans pro;
+  display: flex;
+  justify-content: space-between;
+}
