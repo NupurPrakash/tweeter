@@ -1,0 +1,53 @@
+.nav {
+  height: 120px;
+  color: #FFFFFF;
+  background-color: #4056A1;
+  padding: 1.5em;
+  font-family: Source sans pro;
+  font-size:30px;
+  width:100%;
+  position: fixed;
+  top:0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#compose-new {
+  display: flex; 
+  flex-direction: column; 
+  font-size: 15px; 
+}
+
+.new-compose-tweet {
+  background-color: transparent;
+  color:red;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+} 
+
+@keyframes bounce {
+  from {
+    padding: 0px;
+  }
+  to {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    background-color: darkgoldenrod;
+    padding-top: 1.5em; 
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav {
+    width:100%;
+  }
+
+}
