@@ -5,12 +5,26 @@ Tweeter is a simple, single-page Twitter clone.
 This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express and MongoDB back-end skills.
 
 ## Final Product
+
+### First Page 
 !["First Page"](https://github.com/NupurPrakash/tweeter/blob/master/docs/first-page.png)
+
+### When user hovers over the tweets
 !["While hovering over the tweets"](https://github.com/NupurPrakash/tweeter/blob/master/docs/hover.png)
+
+### When user did not input any tweets but pressed the tweet button
 !["When user inputs no tweet but presses tweet button"](https://github.com/NupurPrakash/tweeter/blob/master/docs/no-input-tweet.png)
+
+### When user exceed tweet's character count
 !["When user exceeds character count"](https://github.com/NupurPrakash/tweeter/blob/master/docs/exceeds-tweet-limit.png)
+
+### Responsive Design for Laptop View
 !["Responsive Design - For Laptop View"](https://github.com/NupurPrakash/tweeter/blob/master/docs/responsive-design1.png)
+
+### Responsive Design for Tablet View
 !["Responsive Design - For Tablet View"](https://github.com/NupurPrakash/tweeter/blob/master/docs/responsive-design2.png)
+
+### Responsive Design for Mobile View
 !["Responsive Design - For Mobile View"](https://github.com/NupurPrakash/tweeter/blob/master/docs/responsive-design3.png)
 
 
