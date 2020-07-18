@@ -15,12 +15,12 @@ const createTweetElement = (data) => {
   let $tweet = `
   <article class="tweet-container">
   <header class="tweet-header">
-    <section class="forAvatarsNameAndHandle">
-      <div class="forAvatarsAndName"> 
+    <section class="for-avatars-name-and-handle">
+      <div class="for-avatars-and-name"> 
         <img src="${data.user.avatars}"> 
         <h6>${data.user.name}</h6>
       </div>      
-      <h6 class="forHandle">${data.user.handle}</h6>
+      <h6 class="for-handle">${data.user.handle}</h6>
       </div>
     </section>
   <article class="article">${escape(data.content.text)}</article>

@@ -6,7 +6,7 @@
   font-family: sans-serif;
 }
 
-.forButtonAndCounter {
+.for-button-and-counter {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -78,7 +78,7 @@
   align-items: flex-start;
 }
 
-.forAvatarsNameAndHandle {
+.for-avatars-name-and-handle {
   display:flex;
   justify-content: space-between;
   flex-direction: row;
@@ -86,23 +86,23 @@
   
 }
 
-.forAvatarsNameAndHandle h6 {
+.for-avatars-and-name h6 {
   margin: 0;
   padding-top: 20px;
 }
 
-.forAvatarsAndName {
+.for-avatars-and-name {
   color: rgb(129, 124, 124);
   display: flex;
   justify-content: space-between;
 
 }
-.forAvatarsAndName > img {
+.for-avatars-and-name > img {
     height: 60px;
     width: 60px;
     padding-right: 4px;
 }
-.forHandle {
+.for-handle {
   color:#afa6a6;
   margin: 0;
   padding: 0;
