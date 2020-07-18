@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: darkgoldenrod;
+  font-family: Bungee; 
+  width: 100%;
+  flex-direction: column;
+  padding-top: 120px;  
+   margin-top: 100px; 
+}
+ header > h2 {
+  font-family: sans-serif;
+  color:rgb(37, 36, 33);
+} 
+
+@media only screen and (max-width: 1024px) {
+  .mainheader {
+    display: block;
+  } 
+  .header {
+    flex: 1 1 100%;
+    margin-left: 0;
+    margin-top: 50px;  
+    background-color: darkgoldenrod;
+    height:100%;
+  }
+  .main {
+    flex: 1 1 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mainheader {
+    display: flex;
+  }
+  .header {
+    flex: 1 1 33%;
+    margin-left: 30px;
+    height:100%;
+    padding-top: 40px;
+    margin-top: 200px;
+  } 
+  .main {
+    flex: 1 1 50%;
+  }
+}  
