@@ -7,23 +7,70 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+   
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+    <script src="https://kit.fontawesome.com/d43ad7a5b6.js" crossorigin="anonymous"></script>
+
+
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
     <!-- Top nav bar (fixed) -->
-    <nav>
-      <span>tweeter</span>
+    <nav class="nav">
+      <span>Tweeter</span>
+      <div id="compose-new">
+        <span><b>Compose</b> a new tweet</span>
+        <button class="new-compose-tweet" type="button"> 
+          <i class="fas fa-angle-double-down"></i>
+        </button>
+      </div>
     </nav>
+    <div class="mainheader">
+    <header class="header">
+      <div class="image">
+        <img src="/images/profile-hex.png"> 
+      </div>
+      <br>
+      <div class="name">
+        <h2>Nupur</h2>
+      </div>
+    </header>
 
+    
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="main">
+      <section class="new-tweet">
+        <div class="too-long">
+          <p>Your entry was too long!</p>
+        </div>
+        <div class="empty-tweet">
+          <p>Enter some tweet</p>
+        </div>
+        <form class="tweetform" action="/tweets/" method="POST">
+            <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+          <div class="forButtonAndCounter">
+            <button class= "button" type="submit">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+      </section>
+      <section class="tweets-container">
+      </section> 
+    </main>
+  </div>
   </body>
 </html>
